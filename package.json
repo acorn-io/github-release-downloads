@@ -1,8 +1,11 @@
 {
-  "name": "github-release-downloads",
+  "name": "@acorn-io/github-release-downloads",
   "version": "1.0.0",
   "type": "module",
-  "repository": "https://github.com/acorn-io/github-release-downloads",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acorn-io/github-release-downloads.git"
+  },
   "author": "Vincent Fiduccia <vincent@acorn.io>",
   "license": "Apache-2.0",
   "dependencies": {
@@ -10,6 +13,6 @@
     "yargs": "^17.7.2"
   },
   "bin": {
-    "github-release-downloads": "./index.js"
+    "github-release-downloads": "index.js"
   }
 }
